@@ -1,0 +1,39 @@
+.trans-container {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+.trans-card {
+  color: rgb(54, 54, 54);
+  padding: 5px 50px;
+  text-align: center;
+  margin: 10px auto;
+  width: 43%;
+  box-shadow: 1px 1.5px 1.5px 1px grey;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 850px) {
+  .trans-card {
+    width: 55%;
+    padding: 10px 35px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .trans-card {
+    width: 68%;
+    padding: 10px 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .trans-card {
+    width: 75%;
+    padding: 7px 20px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .trans-card {
+    width: 90%;
+    padding: 5px 10px;
+  }
+}

@@ -1,0 +1,83 @@
+.home-container {
+  display: block; 
+  width: 95%;
+  margin: auto;
+}
+.home-h1 {
+  text-align: center;
+  width: 100%;
+}
+.balance {
+  font-size: 20px;
+  color: green;
+  text-align: right;
+  margin-right: 20px;
+}
+.payment {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.payment div {
+  background-color: blue;
+  width: 80%;
+  margin: 10px 15px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: whitesmoke;
+  cursor: pointer;
+
+}
+.services {
+  margin: 5px auto;
+  text-align: center;
+}
+.flex-container {
+  margin: auto;
+  border-radius: 5px;
+}
+.flex-row {
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+  align-items: center;
+}
+.flex-item {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  font-size: 18px;
+  text-align: center;
+  margin: auto 15px;
+  padding: auto 5px;
+}
+.services-container {
+  display: grid; 
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 650px) {
+  .flex-item {
+    width: 150px;
+    
+  }
+}
+@media screen and (max-width: 500px) {
+  .flex-item {
+    width: 120px;
+      }
+}
+@media screen and (max-width: 350px) {
+  .flex-item {
+    width: 70px;
+      }
+}
